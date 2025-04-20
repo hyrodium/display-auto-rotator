@@ -1,5 +1,5 @@
 [project]
-name = "display-auto-rotation"
+name = "display-auto-rotator"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
@@ -9,7 +9,7 @@ dependencies = [
 ]
 
 [project.scripts]
-display-auto-rotation = "display_auto_rotation.main:main"
+display-auto-rotator = "display_auto_rotator.main:main"
 
 [build-system]
 requires = [ "hatchling",]
