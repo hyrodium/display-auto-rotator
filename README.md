@@ -18,7 +18,7 @@ See more at https://bsky.app/profile/hyrodium.bsky.social/post/3ln6qdv3mbs2j.
 
 ![](screenshot_shortcuts.png)
 
-### Microcontroller (sensor as HID keyboard)
+### Microcontroller (Raspi pico unit as HID keyboard)
 
 #### Buy
 
