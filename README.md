@@ -27,7 +27,7 @@ See more at https://bsky.app/profile/hyrodium.bsky.social/post/3ln6qdv3mbs2j.
 
 #### Assemble
 
-(TODO: write docs)
+![](display-backside.jpg)
 
 #### Write
 
