@@ -4,7 +4,7 @@ Rotate display automatically!
 
 ## Demo
 
-(TODO: embed mp4)
+https://github.com/user-attachments/assets/ae1f9217-fd95-40cb-a14e-61bc6282abff
 
 See more at https://bsky.app/profile/hyrodium.bsky.social/post/3ln6qdv3mbs2j.
 
