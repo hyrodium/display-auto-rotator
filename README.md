@@ -21,6 +21,8 @@ See more at https://bsky.app/profile/hyrodium.bsky.social/post/3ln6qdv3mbs2j.
 
 ### PC (host)
 
+For example, you can setup the hotkeys like this in KDE Plasma environment.
+
 - `Meta+Ctrl+Home`: `xrandr --output DP-0 --rotate left`
 - `Meta+Ctrl+End`: `xrandr --output DP-0 --rotate right`
 - `Meta+Ctrl+Up`: `xrandr --output DP-0 --rotate normal`
@@ -34,11 +36,17 @@ See more at https://bsky.app/profile/hyrodium.bsky.social/post/3ln6qdv3mbs2j.
 - [raspberry pi pico](https://www.raspberrypi.com/products/raspberry-pi-pico/)
 - [analog accelaration sensor](https://strawberry-linux.com/catalog/items?code=12101)
 
+#### Order PCB
+
+
+#### Print cover
+
+
 #### Assemble
 
 ![](display-backside.jpg)
 
-#### Write
+#### Write firmware and scripts
 
 - Download and write the CircuitPython firmware (https://circuitpython.org/board/raspberry_pi_pico/).
 - Copy the following files to pico drive.
