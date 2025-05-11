@@ -17,11 +17,6 @@ t = 0.01
 threshold_rot = 0.05
 
 
-# ADC to read 16bit (0-65535)
-def read_adc(adc):
-    return adc.value
-
-
 def load_xy():
     x = (adc_x.value - 32768) / 32768
     y = (adc_y.value - 32768) / 32768
