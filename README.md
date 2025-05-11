@@ -2,6 +2,15 @@
 
 Rotate display automatically!
 
+```mermaid
+graph LR
+  ACC["Accelaration sensor MMA7361LC"]
+  PICO["Raspberry Pi Pico"]
+  PC["PC (Linux)"]
+  ACC -->|Analog signal| PICO
+  PICO -->|"HID keyboard (send hotkey to run xrandr)"| PC
+```
+
 ## Demo
 
 https://github.com/user-attachments/assets/ae1f9217-fd95-40cb-a14e-61bc6282abff
