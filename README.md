@@ -5,10 +5,10 @@ Rotate display automatically!
 ```mermaid
 graph LR
   ACC["Accelaration sensor MMA7361LC"]
-  PICO["Raspberry Pi Pico"]
+  PICO["Raspberry Pi Pico as HID keyboard"]
   PC["PC (Linux)"]
   ACC -->|Analog signal| PICO
-  PICO -->|"HID keyboard (send hotkey to run xrandr)"| PC
+  PICO -->|"hotkey to run xrandr"| PC
 ```
 
 ## Demo
@@ -39,12 +39,27 @@ For example, you can setup the hotkeys like this in KDE Plasma environment.
 #### Order PCB
 
 
+
+![](pcb-1.jpg)
+
+![](pcb-2.jpg)
+
 #### Print cover
 
+Print STL files in `display-auto-rotator_3dp` directory.
+https://www.thingiverse.com/thing:7035134
+
+![](cover-1.jpg)
+
+![](cover-2.jpg)
 
 #### Assemble
 
-![](display-backside.jpg)
+![](display-backside-without-cover.jpg)
+
+![](display-backside-with-cover-1.jpg)
+
+![](display-backside-with-cover-2.jpg)
 
 #### Write firmware and scripts
 
